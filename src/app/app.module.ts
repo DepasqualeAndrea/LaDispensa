@@ -8,6 +8,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { ContattiComponent } from './components/contatti/contatti.component';
 import { ChiSiamoComponent } from './components/chi-siamo/chi-siamo.component';
 import { MenComponent } from './components/men/men.component';
+import { SocialboxComponent } from './components/social-combobox/socialbox/socialbox.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { MenComponent } from './components/men/men.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SocialboxComponent
+
   ],
   providers: [],
   bootstrap: [AppComponent]
