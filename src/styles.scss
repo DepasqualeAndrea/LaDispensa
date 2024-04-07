@@ -5,8 +5,19 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.landing_page{
+  display: flex;
+  flex-direction: column;
+}
+
+.home_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
 .spiker_text{
-  font-size: 6em;
+  font-size: 7em;
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-style: normal;
@@ -18,6 +29,16 @@ body {
   text-align: center;
   padding: 0;
 }
+
+.display-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .social-header{
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ff653b, #6f03f4);
+  cursor: pointer;
+ }
 
 button {
   text-decoration: none;
@@ -83,14 +104,36 @@ button:active {
     font-weight: 400;
     font-style: normal;
   }
+  .home_header{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin: 0 auto
+  }
+  .landing_page{
+    display: flex;
+    flex-direction: column;
+  }
 }
+
 
 @media (max-width: 768px) {
   .spiker_text{
-    font-size: 4em;
+    font-size: 2em;
+    margin: 0 auto;
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
     font-style: normal;
+  }
+  .home_header{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    text-align: center;
+  }
+  .landing_page{
+    display: flex;
+    flex-direction: column;
   }
 }
 

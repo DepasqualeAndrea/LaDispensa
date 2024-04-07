@@ -1,0 +1,5 @@
+<div class="custom-carousel owl-carousel owl-theme">
+  <div class="item" *ngFor="let item of items" (click)="toggleActive(item)" [ngClass]="{'active': item.active}">
+    {{ item.content }}
+  </div>
+</div>

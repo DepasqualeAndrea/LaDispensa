@@ -7,8 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
 import { ContattiComponent } from './components/contatti/contatti.component';
 import { ChiSiamoComponent } from './components/chi-siamo/chi-siamo.component';
-import { MenComponent } from './components/men/men.component';
 import { SocialboxComponent } from './components/social-combobox/socialbox/socialbox.component';
+import { CustomCarouselComponent } from './components/custom-carousel/custom-carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { SocialboxComponent } from './components/social-combobox/socialbox/socia
     NavComponent,
     ContattiComponent,
     ChiSiamoComponent,
-    MenComponent,
+    CustomCarouselComponent,
   ],
   imports: [
     BrowserModule,
