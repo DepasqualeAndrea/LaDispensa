@@ -9,6 +9,7 @@ import { ContattiComponent } from './components/contatti/contatti.component';
 import { ChiSiamoComponent } from './components/chi-siamo/chi-siamo.component';
 import { SocialboxComponent } from './components/social-combobox/socialbox/socialbox.component';
 import { CustomCarouselComponent } from './components/custom-carousel/custom-carousel.component';
+import { PiattiDellaCasaComponent } from './components/piatti-della-casa/piatti-casa/piatti-della-casa.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CustomCarouselComponent } from './components/custom-carousel/custom-car
     ContattiComponent,
     ChiSiamoComponent,
     CustomCarouselComponent,
+    PiattiDellaCasaComponent,
   ],
   imports: [
     BrowserModule,

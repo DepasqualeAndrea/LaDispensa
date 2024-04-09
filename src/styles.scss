@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+
+
 body {
-  background-color: rgb(13, 16, 18);
+  background-color: rgba(56, 55, 55, 0.555);
   color: rgb(255, 255, 255);
+  z-index: -99;
+}
+.div_space_defaul{
+  height: 50px;
 }
 
 .landing_page{
@@ -40,7 +46,7 @@ body {
   cursor: pointer;
  }
 
-button {
+/*button {
   text-decoration: none;
   position: relative;
   border: none;
@@ -56,8 +62,21 @@ button {
   background-size: 300%;
   border-radius: 30px;
   z-index: 1;
-}
+}*/
 
+.house-food{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Playfair Display', serif;
+}
+.house-food{
+  background : url('../src/assets/media/autumn-2902532_1920.jpg');
+  background-size:cover;
+  overflow: visible;
+  background-attachment:fixed;
+}
+/*
 button:hover {
   animation: ani 8s linear infinite;
   border: none;
@@ -93,7 +112,7 @@ button:hover::before {
 
 button:active {
   background: linear-gradient(32deg, #03f413, #f441a5, #ffeb3b, #03a9f4);
-}
+}*/
 
 //responsive site onMobile
 

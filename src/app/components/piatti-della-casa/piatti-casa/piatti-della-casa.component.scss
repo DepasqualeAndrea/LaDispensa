@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
 #header{
   margin:20px;
 }
@@ -10,18 +12,22 @@
   font-size:1.5rem;
   font-style:italic;
 }
-
+.container{
+  width:100vw;
+  display:flex;
+  justify-content:space-around;
+  padding:40px 20px;
+}
 .card{
   display:flex;
-  flex-direction:row;
-  width:100%;
-  padding: 40px;
+  flex-direction:column;
+  width:400px;
+  margin-bottom:60px;
 }
 
 .card-image{
-  width:600px;
-  object-fit: cover;
-  height:auto;
+  width:400px;
+  height:250px;
 }
 .card-image>img{
   width:100%;
@@ -32,9 +38,9 @@
 .card-text{
   margin:-30px auto;
   margin-bottom:-50px;
-  height:600px;
-  width:600px;
-  background-color:#ecebed9a;
+  height:300px;
+  width:300px;
+  background-color:#1D1C20;
   color:#fff;
   padding:20px;
 }
@@ -59,39 +65,4 @@
   display:flex;
   justify-content:center;
   align-items:center;
-}
-
-@media (max-width: 768px)
-{
-  .card{
-    display:flex;
-    flex-direction:column;
-    width:100%;
-    padding: 40px;
-  }
-  .card-image{
-    width:300px;
-    object-fit: cover;
-    height:auto;
-  }
-  .card-text{
-    margin:-30px auto;
-    margin-bottom:-50px;
-    height:fit-content;
-    width:auto;
-    background-color:#4d4b52;;
-    color:#fff;
-    padding:8px;
-  }
-  .card-meal-type{
-    font-style:italic;
-  }
-  .card-title{
-    font-size:2.2rem;
-    margin-bottom:20px;
-    margin-top:5px;
-  }
-  .card-body{
-    font-size:0.8rem;
-  }
 }

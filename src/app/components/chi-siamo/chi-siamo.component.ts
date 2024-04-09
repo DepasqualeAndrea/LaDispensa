@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppCostants } from 'src/app/costants/app.costants';
 
 @Component({
   selector: 'app-chi-siamo',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chi-siamo.component.scss']
 })
 export class ChiSiamoComponent implements OnInit {
+
+  public chiSiamo = AppCostants.CHISIAMO
 
   constructor() { }
 
